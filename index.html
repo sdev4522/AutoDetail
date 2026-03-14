@@ -1914,5 +1914,15 @@
         });
       });
     </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(function () {
+          var myModal = new bootstrap.Modal(
+            document.getElementById("exampleModal"),
+          );
+          myModal.show();
+        }, 3000); // 3 seconds
+      });
+    </script>
   </body>
 </html>
