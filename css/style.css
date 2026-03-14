@@ -7653,6 +7653,10 @@ footer .tiny-border span {
 .p-90{padding: 90px;}
 .p-100{padding: 100px;}
 
+
+@media (max-width: 568px) {
+  .p-40 {padding: 1%!important;}
+}
 /* padding bottom (px) */
 .pb-10{padding-bottom: 10px;}
 .pb-20{padding-bottom: 20px;}
